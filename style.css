@@ -50,3 +50,12 @@
 .info_3 p{
     font-size: 15px;
 }
+
+.container_goInYourPage{
+    
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    display:grid;    
+    width: 100%;
+}

@@ -10,7 +10,7 @@
     <title>Запись на курсы программирования</title>
 </head>
 <body>
-    <nav style="background-color: #e3f2fd; z-index: 2;" class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav style="background-color: #e3f2fd; z-index: 1;" class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a style="color: rgb(0, 74, 210);" class="navbar-brand" href="index.html"><b>Easy Learn</b></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +25,8 @@
                 <a class="nav-link dropdown-toggle" href="#">Предметы</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Решения от экспертов
+                <a class="nav-link" href="News.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Новости
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -39,7 +39,7 @@
             <form class="d-flex w-50" role="search" style="padding-right: 10px;">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <div class="btn-group" role="group" aria-label="Basic mixed styles example">
-                <a style="padding-right: 5px;" href=""><button type="button" class="btn btn-outline-secondary">Вход</button></a>
+                <a style="padding-right: 5px;" href="GoInYourPage.html"><button type="button" class="btn btn-outline-secondary">Вход</button></a>
                 <a href="AddСourses.html"><button type="button" class="btn btn-warning">Зарегистрироваться</button></a> 
               </div>
               
@@ -53,30 +53,24 @@
             <img style="height: 100%;" class="img-fluid" src="image/Q3f75RRdhEc.jpg" alt="">
         </div> 
 
-        <div style="display: flex; width: 30%; align-items: center; justify-content: center;" class="container_info">
-            <hr>
+        <div style="display: flex; width: 30%; height: 1%; margin-top: 27%; align-items: center; justify-content: center;" class="container_info">
         
-            <form style="padding-left: 50%; width: 100%;">
-
+            <form style="padding-left: 50%; width: 100%; padding-top: 20px;">
+              
                 <div class="input-group flex-nowrap">
                     <span class="input-group-text" id="addon-wrapping">🧑‍🎓</span>
                     <input type="text" class="form-control" placeholder="Ваше имя:" aria-label="Username" aria-describedby="addon-wrapping">
                   </div>
-                <br>
                   
-                <div class="form-floating mb-3">
+                <div class="form-floating mb-3" style="padding-top: 5px;">
                     <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                     <label for="floatingInput">Email</label>
                   </div>
-
         
-                <br>
                     <div class="form-floating">
                         <p>Дополнительная информация</p>
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
                     </div>
-        
-                    <br>
         
                     <div class="row g-3 align-items-center">
                         <div class="col-auto">
@@ -86,13 +80,11 @@
                           <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
                         </div>
                         <div class="col-auto">
-                          <span id="passwordHelpInline" class="form-text">
+                          <span style="font-size: 10px;" id="passwordHelpInline" class="form-text">
                             Must be 8-20 characters long.
                           </span>
                         </div>
                       </div>
-        
-                    <br>
         
                         <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -100,12 +92,9 @@
                                 С правилами ознакомился и согласен
                             </label>
                         </div>
-                    <br>
-        
                                             
                     <div class="d-grid gap-2">
                         <button class="btn btn-primary" type="submit">Зарегистрироваться</button>
-                        <button class="btn btn-secondary" type="reset">Очистить форму</button>
                     </div>
                     
             </form>
